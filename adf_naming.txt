@@ -1,0 +1,41 @@
+
+Data Factory:
+Abbreviation: ADF
+Naming Pattern: {ProjectAbbreviation}-{EnvironmentAbbreviation}-{Purpose}-{SequenceNumber}
+Example: ADF-PROD-ETL-01
+Pipelines:
+Abbreviation: PIPE
+Naming Pattern: {PurposeAbbreviation}-{SequenceNumber}
+Example: ETL-01
+Activities:
+Abbreviation: ACT
+Naming Pattern: {TypeAbbreviation}-{PurposeAbbreviation}-{SequenceNumber}
+Example: SQL-EX-01
+Datasets:
+Abbreviation: DS
+Naming Pattern: {DataSourceAbbreviation}-{PurposeAbbreviation}-{SequenceNumber}
+Example: Sales-Source-01
+Linked Services:
+Abbreviation: LS
+Naming Pattern: {ServiceTypeAbbreviation}-{PurposeAbbreviation}-{SequenceNumber}
+Example: SQLDB-PROD-01
+Triggers:
+Abbreviation: TRIG
+Naming Pattern: {PurposeAbbreviation}-{SequenceNumber}
+Example: SCH-01 (for scheduled trigger)
+Integration Runtimes:
+Abbreviation: IR
+Naming Pattern: {EnvironmentAbbreviation}-{PurposeAbbreviation}
+Example: PROD-ETL
+Data Flows:
+Abbreviation: DF
+Naming Pattern: {PurposeAbbreviation}-{SequenceNumber}
+Example: DataTrans-01
+Data Bricks:
+Abbreviation: DB
+Naming Pattern: {PurposeAbbreviation}-{SequenceNumber}
+Example: DataSci-01
+Data Lake Gen2 Storage:
+Abbreviation: DL
+Naming Pattern: {PurposeAbbreviation}-{SequenceNumber}
+Example: RawDataLake-01
